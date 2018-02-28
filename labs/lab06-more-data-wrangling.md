@@ -120,7 +120,7 @@ After the header, and the loading-packages sections, the next part in your lab s
 -   We want you to work with relative paths. To execute the commands that read input(s) and write output(s), you will need to set the working directory. On the menu bar go to **Session**, then select the option **Set Working Directory**, and choose **To Source File Location**.
 -   Use `read_csv()` from the package `"readr"` to import the data `nba2017-players.csv` in R. Do this by specifying a relative path.
 -   Use the imported tibble to create a data frame `warriors` by selecting rows---e.g. `filter()`---of Golden State Warriors, arranging rows by salary in increasing order.
--   Use the function `write.csv()` to export (or save) the data frame `warriors` to a data file `warriors.csv` in the `folder/` directory. You will need to use a relative path to specify the `file` argument. Also, see how to use the argument `row.names` to avoid including a first column of numbers.
+-   Use the function `write.csv()` to export (or save) the data frame `warriors` to a data file `warriors.csv` in the `output/` directory. You will need to use a relative path to specify the `file` argument. Also, see how to use the argument `row.names` to avoid including a first column of numbers.
 -   Create another data frame `lakers` by selecting rows of Los Angeles Lakers, this time arranging rows by experience (decreasingly).
 -   Now use the function `write_csv()` to export (or save) the data frame `lakers` to a data file `lakers.csv` in the `folder/` directory. You will also need to use a relative path to specify the `file` argument.
 -   Inspect the contents of the `data/` folder and confirm that the csv files are there.
